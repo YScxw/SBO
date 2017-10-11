@@ -1,0 +1,58 @@
+// SBO.idl : ActiveX 控件项目的类型库源。
+
+// 此文件将由 MIDL 编译器工具处理以
+// 产生类型库(SBO.tlb)，该类型库将成为
+// SBO.ocx.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(5231766C-4B82-40D7-8EA2-FEDD9CFA5625), version(1.0),
+  control ]
+library SBOLib
+{
+	importlib(STDOLE_TLB);
+
+	//  CSBOCtrl 的主调度接口
+	[ 
+		uuid(FD73CF57-9A76-47AC-BE96-07ACE771450C)	
+	]
+	dispinterface _DSBO
+	{
+		properties:
+		methods:
+
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+			[id(1)] void OpenRecorder(void);
+			[id(3)] void PlayVoice(BSTR data);
+			[id(4)] void OpenVoicePlayer(void);
+			[id(5)] void CloseVoicePlayer(void);
+			[id(6)] void CloseRecorder(void);
+	};
+
+	//  CSBOCtrl 的事件调度接口
+
+	[ 
+		uuid(61789752-B8A7-4C1E-92BF-C9D1C1235BBA)	
+	]
+	dispinterface _DSBOEvents
+	{
+		properties:
+			//  事件接口没有任何属性
+
+		methods:
+			[id(1)] void OnGetVoiceData(BSTR data);
+			[id(2)] void OnGetLog(void);
+	};
+
+	//  CSBOCtrl 的类信息
+	[
+		uuid(B908D0E2-38C8-44AB-A934-D52BF429D075)
+	]
+	coclass SBO
+	{
+		[default] dispinterface _DSBO;
+		[default, source] dispinterface _DSBOEvents;
+	};
+
+};

@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\navbar.png",
+        "source": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\src\\main\\res\\drawable-mdpi\\navbar.png"
+    },
+    {
+        "merged": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ewm.png",
+        "source": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\src\\main\\res\\drawable-mdpi\\ewm.png"
+    },
+    {
+        "merged": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\setting.png",
+        "source": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\src\\main\\res\\drawable-mdpi\\setting.png"
+    },
+    {
+        "merged": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\moblienfc.png",
+        "source": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\src\\main\\res\\drawable-mdpi\\moblienfc.png"
+    },
+    {
+        "merged": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\sbzf.png",
+        "source": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\src\\main\\res\\drawable-mdpi\\sbzf.png"
+    },
+    {
+        "merged": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ngc.png",
+        "source": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\src\\main\\res\\drawable-mdpi\\ngc.png"
+    },
+    {
+        "merged": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\yyqk.png",
+        "source": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\src\\main\\res\\drawable-mdpi\\yyqk.png"
+    },
+    {
+        "merged": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\sendsb.png",
+        "source": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\src\\main\\res\\drawable-mdpi\\sendsb.png"
+    },
+    {
+        "merged": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\listen.png",
+        "source": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\src\\main\\res\\drawable-mdpi\\listen.png"
+    }
+]

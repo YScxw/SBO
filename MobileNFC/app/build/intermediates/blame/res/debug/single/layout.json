@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sbo.xml",
+        "source": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\src\\main\\res\\layout\\activity_sbo.xml"
+    },
+    {
+        "merged": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\settingpage.xml",
+        "source": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\src\\main\\res\\layout\\settingpage.xml"
+    },
+    {
+        "merged": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\welcome.xml",
+        "source": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\src\\main\\res\\layout\\welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\phonenfc.xml",
+        "source": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\src\\main\\res\\layout\\phonenfc.xml"
+    },
+    {
+        "merged": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_select_page.xml",
+        "source": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\src\\main\\res\\layout\\activity_select_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_listen_qk.xml",
+        "source": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\src\\main\\res\\layout\\activity_listen_qk.xml"
+    }
+]

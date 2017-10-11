@@ -1,0 +1,10 @@
+iphone平台下声波通讯的示例源码。
+在工程文件夹下libcvoiceRecognize.a是真机版的库
+libcvoiceRecognize_simulator.a是模拟器版的库
+自己根据需要链接不同的库
+
+各平台的库是demo版，加了使用时间限制，有效期到2017年6月左右，可能有些版本的库也有使用次数的限制。你自己如果真正需要相应的正式版无限制版本，再找我吧。
+
+
+详情可查看：http://blog.csdn.net/softlgh
+作者: 夜行侠 QQ:3116009971 邮件：3116009971@qq.com

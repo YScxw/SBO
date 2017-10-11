@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="output"><source path="C:\Users\ycw\.android\build-cache\bafa66a13a97ed0619477c07665632268d359d71\output\assets"/></dataSet><dataSet config="main"><source path="C:\Users\ycw\Desktop\MobileNFC1\app\src\main\assets"/><source path="C:\Users\ycw\Desktop\MobileNFC1\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\ycw\Desktop\MobileNFC1\app\src\debug\assets"/></dataSet></merger>

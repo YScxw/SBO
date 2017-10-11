@@ -1,0 +1,26 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 17
+    buildToolsVersion "25.0.3"
+
+    defaultConfig {
+        applicationId "com.cxb.mobilebanking"
+        minSdkVersion 9
+        targetSdkVersion 17
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:18.0.0'
+    compile files('libs/core.jar')
+    compile files('libs/voiceRecog.jar')
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\welcome.png",
+        "source": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\src\\main\\res\\drawable-xxhdpi\\welcome.png"
+    },
+    {
+        "merged": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\mainback.png",
+        "source": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\src\\main\\res\\drawable-xxhdpi\\mainback.png"
+    },
+    {
+        "merged": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\back.png",
+        "source": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\src\\main\\res\\drawable-xxhdpi\\back.png"
+    },
+    {
+        "merged": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\logoin.png",
+        "source": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\src\\main\\res\\drawable-xxhdpi\\logoin.png"
+    }
+]

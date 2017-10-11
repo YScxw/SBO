@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\login.xml",
+        "source": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\src\\main\\res\\menu\\login.xml"
+    },
+    {
+        "merged": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\listen_qk.xml",
+        "source": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\src\\main\\res\\menu\\listen_qk.xml"
+    },
+    {
+        "merged": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\sbo.xml",
+        "source": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\src\\main\\res\\menu\\sbo.xml"
+    },
+    {
+        "merged": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\welcome.xml",
+        "source": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\src\\main\\res\\menu\\welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\select_page.xml",
+        "source": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\src\\main\\res\\menu\\select_page.xml"
+    }
+]

@@ -1,0 +1,147 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainback"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ListenQK" >
+    <Button
+       	android:id="@+id/phonenfc"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sweep"
+        android:layout_below="@+id/sweep"
+        android:visibility="invisible"
+        android:text="@string/shoujiNFC" />
+<!--     -->
+
+    <ImageView
+        android:id="@+id/qr_image"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_above="@+id/replaysound"
+        android:layout_alignRight="@+id/ipEditText"
+        android:layout_below="@+id/phonenfc"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/enter"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ipEditText"
+        android:layout_alignBottom="@+id/ipEditText"
+        android:layout_alignLeft="@+id/sweep"
+        android:visibility="invisible"
+        android:layout_alignRight="@+id/reservation"
+        android:text="@string/Enter" />
+
+    <EditText
+        android:id="@+id/ipEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="14dp"
+        android:layout_toRightOf="@+id/enter"
+        android:ems="10"
+        android:visibility="invisible"
+        android:hint="@string/ip"
+        android:text="@string/ip" />
+   
+    <ImageView
+        android:id="@+id/qr_image_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/result_text" />
+<!-- -->
+
+    <Button
+        android:id="@+id/sweep"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/viewfinder_view"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/saoyisaoqukuan" />
+
+    <Button
+        android:id="@+id/reservation"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/viewfinder_view"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/yuyuequkuan"
+        android:textColorLink="@color/result_text"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/replaysound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/reservation"
+        android:background="@drawable/listen"
+        android:gravity="bottom|center"
+        android:text="收听中..." />
+
+    <com.cxb.mobilebanking.view.ViewfinderView
+        android:id="@+id/viewfinder_view"
+        android:layout_width="fill_parent"
+        android:layout_height="165dp"
+        android:layout_alignBottom="@+id/replaysound"
+        android:layout_toLeftOf="@+id/qr_image_2"
+        android:layout_toRightOf="@+id/replaysound"
+        android:background="@android:color/transparent"
+        android:configChanges="orientation|keyboardHidden"
+        android:screenOrientation="portrait"
+        android:visibility="invisible" />
+
+    <SurfaceView
+        android:id="@+id/preview_view"
+        android:layout_width="fill_parent"
+        android:layout_height="165dp"
+        android:layout_alignRight="@+id/replaysound"
+        android:layout_toRightOf="@+id/replaysound"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/shake"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/yaoyiyaoqukuan"
+        android:visibility="invisible" />
+
+    <ListView
+        android:id="@+id/valueView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/valueViewTip"
+        android:visibility="invisible" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/valueViewTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/reservation"
+        android:layout_alignTop="@+id/viewfinder_view"
+        android:layout_below="@+id/reservation"
+        android:text="单击按钮开始操作"
+        android:textColor="@color/result_text" />
+
+</RelativeLayout>

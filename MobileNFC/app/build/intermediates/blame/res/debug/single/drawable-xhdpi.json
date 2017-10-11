@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\nfc.png",
+        "source": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\src\\main\\res\\drawable-xhdpi\\nfc.png"
+    },
+    {
+        "merged": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\down.png",
+        "source": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\src\\main\\res\\drawable-xhdpi\\down.png"
+    },
+    {
+        "merged": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\up.png",
+        "source": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\src\\main\\res\\drawable-xhdpi\\up.png"
+    },
+    {
+        "merged": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\ycw\\Desktop\\MobileNFC1\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    }
+]

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="voiceRecog">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/voiceRecog.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="Content-Type"/>
+		<title>ZJUI_Customer</title>
+		<script type="text/javascript" language="javascript" for="SBO" event="OnGetVoiceData(data)">
+			alert(data);
+		</script>
+		<script type="text/javascript" language="javascript" for="SBO" event="OnGetLog(data)">
+			alert("Log: "+data);
+		</script>
+	</head>
+	<body>
+		<object id="SBO" width=0 height=0 classid="CLSID:B908D0E2-38C8-44AB-A934-D52BF429D075"></object>
+		<input type="BUTTON" value="打开录音机" Onclick="SBO.OpenRecorder()"/>
+		<input type="BUTTON" value="关闭录音机" Onclick="SBO.CloseRecorder()"/>
+		<input type="BUTTON" value="打开播放器" Onclick="SBO.OpenVoicePlayer()"/>
+		<input type="BUTTON" value="发声" Onclick="SBO.PlayVoice(document.getElementById('text').value)"/>
+		<input type="text" id="text"/>
+		<input type="BUTTON" value="关闭播放器" Onclick="SBO.CloseVoicePlayer()"/>
+		<input type="BUTTON" value="关于" Onclick="SBO.AboutBox()"/>
+	</body>
+</html>

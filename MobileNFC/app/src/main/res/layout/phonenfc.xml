@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainback"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".NFCActivity" >
+
+    <TextView
+        android:id="@+id/textVShowText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textViewShowTitle"
+        android:layout_marginTop="23dp"
+        android:layout_toRightOf="@+id/textViewShowTitle"
+        android:text="将手机贴近支持声波通讯的ATM或者其他支付终端，按下按钮，根据设备提示进行操作。"
+        android:textColor="@color/result_text"
+        android:textSize="16dp"
+        android:textStyle="italic" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textVTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:focusable="false"   
+        android:background="@drawable/imagebutton"
+        />
+
+    <TextView
+        android:id="@+id/textVTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:text="欢迎使用手机声波NFC功能"
+        android:textColor="@color/result_text"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/textViewShowTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textVTitle"
+        android:layout_below="@+id/imageButton1"
+        android:layout_marginTop="52dp"
+        android:text="使用方法："
+        android:textColor="@color/result_text"
+        android:textSize="18dp" />
+
+</RelativeLayout>
